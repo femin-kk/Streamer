@@ -30,7 +30,7 @@ jobs:
       run: ls -R app/build/outputs/apk/
 
     - name: Upload APK artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: Streamer-APK
         path: app/build/outputs/apk/debug/app-debug.apk
